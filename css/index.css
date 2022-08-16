@@ -1,0 +1,19 @@
+.profile-container {
+  margin-right: 50px;
+}
+
+.external-links {
+  color: inherit;
+  border-bottom: 1px dashed rgb(108, 117, 124);
+  text-decoration: none;
+}
+
+.external-links:hover {
+  color: #000;
+}
+
+@media screen and (max-width: 1201px) {
+  .profile-container {
+    display: none;
+  }
+}
